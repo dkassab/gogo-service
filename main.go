@@ -1,7 +1,7 @@
 package main
 import (
 "os"
-service "github.com/dkassab/mservice/service")
+service "github.com/dkassab/gogo-service/service")
 )
 
 func main(){
