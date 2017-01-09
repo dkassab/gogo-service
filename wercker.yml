@@ -38,13 +38,6 @@ dev:
 
 
 
-    - internal/watch:
-
-        code: go run main.go
-
-        reload: true
-
-
 
 build:
 
@@ -102,7 +95,7 @@ build:
 
         code: |
 
-          go test -v $(glide novendor)
+          go test -v ./service
 
 
 
